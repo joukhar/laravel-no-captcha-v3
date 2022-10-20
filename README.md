@@ -1,6 +1,7 @@
 # Laravel No Captcha V3
 
 [![License](https://img.shields.io/github/license/joukhar/laravel-no-captcha-v3)](https://packagist.org/packages/joukhar/laravel-no-captcha-v3)
+[![Total Downloads](http://poser.pugx.org/joukhar/laravel-no-captcha-v3/downloads)](https://packagist.org/packages/joukhar/laravel-no-captcha-v3)
 [![Isues](https://img.shields.io/github/issues/joukhar/laravel-no-captcha-v3)](https://packagist.org/packages/joukhar/laravel-no-captcha-v3)
 
 ## Installation
