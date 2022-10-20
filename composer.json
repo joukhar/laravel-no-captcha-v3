@@ -1,0 +1,27 @@
+{
+    "name": "joukhar/laravel-no-captcha-v3",
+    "description": "Laravel no captcha v3 is a light weight package to add google recaptcha v3 to your sensitive pages in laravel applications",
+    "keywords": [
+        "joukhar",
+        "laravel",
+        "google-recaptcha",
+        "laravel-no-captcha-V3",
+        "laravel-recaptcha"
+    ],
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Joukhar\\LaravelNoCaptchaV3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joukhar",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    }
+}
