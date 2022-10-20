@@ -15,6 +15,13 @@
             "Joukhar\\LaravelNoCaptchaV3\\": "src/"
         }
     },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Joukhar\\LaravelNoCaptchaV3\\LaravelNoCaptchaV3"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Joukhar",
