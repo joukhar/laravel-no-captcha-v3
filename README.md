@@ -32,7 +32,7 @@ then Add new key to .env file to turn on/off the recaptcha ex:
 ENABLE_NO_CAPTCHA=on
 ```
 
-And Add your Recaptcha Credentials in the config file , you can get them here https://www.google.com/u/1/recaptcha/admin/create:
+And Add your Recaptcha Credentials in the config file:
 
 ```php
     'recaptcha' => [
@@ -41,9 +41,11 @@ And Add your Recaptcha Credentials in the config file , you can get them here ht
     ]
 ```
 
+you can get them here https://www.google.com/u/1/recaptcha/admin/create
+
 ## Views
 
-You can publish the views via:
+If You want to override the default views, you can publish them via:
 
 ```
 php artisan vendor:publish --provider="Joukhar\LaravelNoCaptchaV3\LaravelNoCaptchaV3" --tag=laravel-no-captcha-v3-views
@@ -113,7 +115,7 @@ class TestController extends Controller
         // if ENABLE_NO_CAPTCHA = off , it will return 'false' ;
 
         $recaptchaResult = $noCaptchaV3Controller->reCaptchaResponse();
-        return $recaptchaResult;
+    
         // conclusion
         if ($recaptchaResult == 'safe') {
             // your code
@@ -123,4 +125,8 @@ class TestController extends Controller
 
 ```
 
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
