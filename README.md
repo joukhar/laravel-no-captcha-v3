@@ -19,6 +19,9 @@ Or install directly via composer
 composer require joukhar/laravel-no-captcha-v3
 ```
 
+## Requirements
+Require php >= 7.4
+
 ## Configuration
 
 You can override the default options for The Package. First publish the configuration:
