@@ -26,18 +26,20 @@ You can override the default options for The Package. First publish the configur
 php artisan vendor:publish --provider="Joukhar\LaravelNoCaptchaV3\LaravelNoCaptchaV3" --tag=laravel-no-captcha-v3-config
 ```
 
-then Add new key to .env file to turn on/off the recaptcha ex:
+then Add The following keys to .env file to turn on/off the recaptcha ex:
 
 ```
 ENABLE_NO_CAPTCHA=on
+GOOGLE_RECAPTCHA_SITE_KEY=
+GOOGLE_RECAPTCHA_SECRET_KEY=
 ```
 
 And Add your Recaptcha Credentials in the config file:
 
 ```php
-    'recaptcha' => [
-        'site_key' => '',
-        'secret_key' => ''
+     'recaptcha' => [
+        'site_key' => env('GOOGLE_RECAPTCHA_SITE_KEY'),
+        'secret_key' => env('GOOGLE_RECAPTCHA_SECRET_KEY')
     ]
 ```
 
