@@ -1,6 +1,6 @@
 <?php
 
-namespace Joukhar\LaravelNoCaptchaV3\LaravelNoCaptchaV3\Http\Controllers;
+namespace Joukhar\LaravelNoCaptchaV3\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
